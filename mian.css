@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+}
+.container {
+    background-image: url(images/blue_bg.png);
+    height: 120vh;
+    background-size: cover;
+}
+
+.section1{
+    display:flex;
+    float:left;
+    justify-content:space-between;
+}
+
+#topbar a{
+    text-decoration:none;
+    color:black;
+    margin:10px;
+    padding:10px;
+    position:relative;
+    left:100px;
+    top:25px;
+}
+
+.active{
+    border-bottom:2px purple solid;
+}
+
+#login{
+   padding: 0 30px;
+   position:absolute;
+   border-radius: 30px;
+   outline:none;
+   border:none;
+   left:980px;
+   height: 30px;
+   top: 61px;
+   background-color: white;
+}
+
+.section1 #topbar img {
+    position:relative;
+    left:100px;
+    top:50px;
+}
+#text {
+    position: absolute;
+    left: 122px;
+    bottom: 500px;
+}
+#text h1{
+    line-height: 2;
+    width:400px;
+    position: absolute;
+    top: 150px;
+}
+#text p {
+    position: absolute;
+    top: 216px;
+    width: 400px;
+}
+#text span{
+    color:purple;
+}
+#images{
+    position:relative;
+}
+.mask{
+    position:absolute;
+    left:700px;
+    bottom:88px;
+    width:250px;
+    z-index:3;
+}
+.landing{
+    width:600px;
+    position:absolute;
+    left:575px;
+    bottom:-75px;
+}
+
+.clouds{
+    position:absolute;
+    left:658px;
+    bottom:23px;
+    z-index:4;
+    width:300px;
+}
+.waves{
+    position: absolute;
+    width: 900px;
+    bottom: -172px;
+}
+
+ .second {
+    position: absolute;
+    left: 300px;
+    width: 800px;
+    top: 800px;
+}
+.one1 .one {
+    width: 170px;
+}
+.one1 {
+    position: absolute;
+    top: 850px;
+    left: 200px;
+}
+
+
+.g152{
+    position:absolute;
+    left:600px;
+    top:985px;
+    z-index:3;
+    width:190px;
+}
+
+.g1020{
+    position:absolute;
+    left:900px;
+    top:1210px;
+    width:190px;
+    z-index:3;
+}
+
+#p1{
+    position:absolute;
+    left:-40px;
+    bottom:-90px;
+    word-spacing: 3px;
+}
+.g1521 p {
+    position: absolute;
+    left:550px;
+    top:1126px;
+}
+#p2{
+    position:absolute;
+    top:1160px;
+}
+
+.g10201 p{
+    position:absolute;
+    left:550px;
+    top:1330px;
+}
+#p3{
+    position:absolute;
+    top:1360px;
+    left:850px;
+}
+.why{
+    width:250px;
+    position:absolute;
+    top:1210px;
+    left:160px;
+}
+.why1 p{
+    color: white;
+    position: absolute;
+    top: 1280px;
+    left: 220px;
+    font-size: 15px;
+
+}
+.why1 h2{
+    color: white;
+    position: absolute;
+    top: 1302px;
+    left: 220px;
+    font-size: 30px;
+}
+
+.g1006 {
+    position: absolute;
+    top: 1580px;
+    left: 200px;
+    width: 140px;
+}
+.g1007 {
+    position: absolute;
+    top: 1539px;
+    width: 290px;
+    left: 497px;
+}
+.g1008 {
+    position: absolute;
+    width: 163px;
+    top: 1600px;
+    left: 950px;
+}
+.text2 {
+    position: absolute;
+    top: 1800px;
+    left: 585px;
+    line-height: 1.5;
+}
+
+.footer{
+    overflow:hidden;
+
+}
+
+.middle {
+    overflow: hidden;
+}
+
+.second {
+    overflow: hidden;
+}
+
+.footer{
+    position:absolute;
+    top:1927px;
+    overflow:hidden;
+    max-width:100%;
+    max-height:100%;
+}
+
+.footer .img12 {
+    width: 550px;
+    position:absolute;
+    top:200px;
+    left:600px;
+}
+.footer .g1131  {
+   max-width: 1330px;
+   box-sizing:border-box;
+   z-index: -1;
+   margin-left:-30px;
+   position:relative;
+   top:80px;
+}
+.footer i {
+   position:relative;
+   z-index:3;
+   bottom:200px;
+}
+
+.bottom{
+    left:100px;
+    position:absolute;
+}
+#bottombar{
+    top:1790px;
+    position:relative;
+}
+#bottombar a{
+    color:white;
+    text-decoration:none;
+    margin-left:30px;
+}
+
+.fa-apple p{
+    font-size:10px;
+}
+
+.fa-apple{
+    position:absolute;
+    top:-260px;
+    left:130px;
+    background-color: white;
+    color: blueviolet;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.fa-google-play p{
+    font-size: 10px;
+}
+
+.fa-google-play {
+    position: absolute;
+    top: -260px;
+    left:140px;
+    background-color: white;
+    color: blueviolet;
+    padding: 5px 20px;
+    border-radius: 10px;
+   
+}
+
+.footer .fa-instagram {
+    color: white;
+    position: absolute;
+    top: 510px;
+    right: 1080px;
+}
+.footer .fa-facebook {
+    color: white;
+    position: absolute;
+    top: 510px;
+    right: 1000px;
+}
+.footer .fa-whatsapp {
+    color: white;
+    position: absolute;
+    top: 510px;
+    right: 1040px;
+}

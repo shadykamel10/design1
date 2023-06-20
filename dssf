@@ -1,0 +1,15 @@
+<div class="middle">
+        <img class="one" src="images\Group 140.png" alt="g140" />
+        <img class="g152" src="images\Group 152.png" alt="g152" />
+        <img class="second" src="images\second_section_.png" alt="2nd" />
+        <img class="g1020" src="images\Group 1020.png" alt="g1020" />
+        <img class="why" src="images\why_kudzoka_bg.png" alt="why" />
+        <img class="g1006" src="images\Group 1006.png" alt="g1006" />
+        <img class="g1007" src="images\Group 1007.png" alt="g1007" />
+        <img class="g1008" src="images\Group 1008.png" alt="g1008" />
+        <div class="text">
+            <p id="one"></p>
+            <p id="g152"></p>
+            <p id="g1020"></p>
+        </div>
+    </div>
